@@ -32,6 +32,11 @@ namespace MauiAppTempoAgors.Service
                     DateTime time = new DateTime(1970, 1, 1, 0, 0, 0, 0);
                     DateTime sunrise = time.AddSeconds((double)rascunho["sys"]["sunrise"]).ToLocalTime();
                     DateTime sunset = time.AddSeconds((double)rascunho["sys"]["sunset"]).ToLocalTime();
+
+                    tempo = new()
+                    {
+
+                    };
                 }
             }
 
